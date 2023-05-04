@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+.Home{
+    height: 100vh;
+}
+/* start header */
+.header{
+    padding: 3%;
+}
+.list_header{
+    list-style: none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    color: red;
+}
+/* End header */
+/* content */
+
+.Featured_works{
+    height: 100vh;
+    padding:5% 15% ;
+    margin-bottom: 40%;
+}
+hr{
+    color: whitesmoke;
+}
+.H_Work{
+    padding: 3%;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    gap:2%;
+    padding: 2%;
+}
+
+.inline{
+    display: inline-flex;
+    gap:2%;
+}
+.inline button{
+    width: 50px;
+    height: 10%;
+    padding: 2.5%;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    padding: 2%;
+    font-weight: 300px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.right_side div{
+    padding: 3%;
+
+}
+
+/* content */
+/* start footer */
+.footet{
+    padding-top:6% ;
+    padding-bottom: 2%;
+}
+.list_footer {
+    list-style: none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:3%;
+}
+.icons{
+    font-size: 35px;
+    }
+.p_footer{
+    
+    font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+
+}
+/* End footer */

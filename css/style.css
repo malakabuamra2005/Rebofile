@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+  @media (max-width: 767px) {
+    nav ul {
+      display: ;
+    }
+    nav .toggle-menu:hover + ul {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: white;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      gap: 1.5rem;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .img_profile{
+        order:1;
+    }
+    .Rescent_post{
+        flex-wrap: wrap;
+        flex-grow: 100%;
+    }
+    /* مس انا كتيير آسفة حاولت افهم ال
+    responsive مش قــــــادرة افهمه
+     */
+}
+  
+.Home{
+    height: 100vh;
+}
+/* start header */
+.header{
+    padding: 3%;
+}
+.list_header{
+    list-style: none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    color: red;
+}
+/* End header */
+/* start h_no1 */
+.h_no1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:6%;
+}
+.content_h_no1 h1{
+    padding: 3%;
+    font-size: 200%;
+    color: #21243D;
+    font-weight: bold
+}
+.content_h_no1 p{
+    padding: 3%;
+    color: #21243D;
+}
+.img_profile{
+    box-shadow:-5px 15px #EDF7FA;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.content_h_no1 button{
+    padding: 3%;
+    color: white;
+    background-color:red;
+    padding: 2%;
+    margin: 3%;
+    border: none;
+    width: 35%;
+    height: 15%;
+    box-shadow:-1px 3px 5px gray;
+    font-weight: bold;
+}
+/* .content_h_no1{
+    padding: 3%;
+} */
+/* start posts */
+.Rescent_post{
+    background-color: #c3e1eb;
+}
+.navpost{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-left: 21.2%;
+    padding-right: 21.2%;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;}
+.post1{
+background-color: white;
+padding:2%;
+margin: 2%;
+height: 10%;
+width: 48%;
+
+}
+.post1 h1{
+    padding: 2%;
+    font-size: 20px;
+}
+.post1 h4{
+    padding: 2%;
+    color: #21243D;
+}
+.post1 p{
+    padding: 2%;
+    color: #21243D;
+}
+/* end posts */
+/* start section Featured works */
+.Featured_works{
+    height: 100vh;
+    padding:5% 15% ;
+    margin-bottom: 25%;
+}
+hr{
+    color: whitesmoke;
+}
+.H_Work{
+    padding: 3%;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    gap:2%;
+    padding: 2%;
+}
+
+.inline{
+    display: inline-flex;
+    gap:2%;
+}
+.inline button{
+    width: 50px;
+    height: 10%;
+    padding: 2.5%;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    padding: 2%;
+    font-weight: 300px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.right_side div{
+    padding: 3%;
+
+}
+/* end section Featured works */
+/* start footer */
+.footet{
+    padding-top:6% ;
+    padding-bottom: 2%;
+}
+.list_footer {
+    list-style: none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:3%;
+}
+.icons{
+    font-size: 35px;
+    }
+.p_footer{
+    
+    font-size: 14px;
+    padding-bottom: 2%;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+/* End footer */
